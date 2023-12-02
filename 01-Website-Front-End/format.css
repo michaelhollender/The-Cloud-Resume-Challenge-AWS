@@ -1,0 +1,197 @@
+main { background-color: #1A1A1A;
+           color: #000000;
+		   padding-top: 60px;
+		   padding-bottom: 80px;
+		   padding-left: 150px;
+		   padding-right: 150px;
+	       overflow: auto; 
+		   min-height: 10px;
+		   margin-top: -70px;
+		   margin-bottom: -70px;
+		   margin-left: -220px;
+		   margin-right: -220px;                  
+}
+
+.content { padding-left: 220px;
+	       padding-right: 220px;
+           padding-top: 40px;
+		   padding-bottom: 20px; 
+		   margin: auto;
+           text-align: left;
+           clear: both; 	  
+}
+
+#wrapper { color: #000000;
+		   background-color: #f2ffe6;
+           width: 50%;
+		   margin: auto;
+}
+
+.line { 
+            border-bottom: 2px solid black; 
+            margin-top: -50px; 
+            margin-left: 0px;
+			padding-top: -25px;
+            width: 100%; 
+        }
+        
+.line2 { 
+            border-bottom: 0.5px dotted green; 
+			margin: auto; 
+            width: 80%; 
+        } 
+	
+header { font-family: Georgia, "Times New Roman", serif;
+        color: #080808; 
+                          
+}
+header h1 { padding-left: 10px;
+            padding-top: 25px;
+		    padding-bottom: 10px; 
+		    margin: auto;
+            text-align: left;
+            font-size: 2.5em;
+            clear: both; 	  
+}
+header span { font-style: italic;
+			  font-weight: bold;
+			  font-size: 100%;
+			  color: #FFFFFF;
+              padding-right: 15em;
+	          margin-top: -0.5em;	
+}
+
+#contactDetailsLeft {
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -35px;
+    margin-top: -06em;
+}
+
+#contactDetailsRight {
+	text-align: center;
+	padding-top: -100px;
+	padding-left: -125px;
+    margin-top: -06em;
+	margin-left: 550px;
+}
+
+nav a:hover {  color: #080808; }
+nav ul ul { 
+         background-color: #5564A0;
+    	 padding: 0;
+         display: none; 
+		 text-align: left;
+}
+nav ul ul li { border: 1px solid  #00005D;
+ 		 display: block;
+         width: 7em;
+         padding-left: 1em;
+         margin-left: 0; 
+}
+nav li:hover ul { display: block; }
+
+h1 { color: #000000; 
+     font-family: arial, sans-serif;
+	 text-align: left;
+	 margin-top: -25px;
+	 margin-bottom: 0px;
+	 margin-left: 0px;
+     margin-right: 25px;   
+	 font-size: 150%;
+}
+
+h2 { color: #000000; 
+     font-family: arial, sans-serif;
+	 padding-top: 25px;
+	 margin: 5px;
+	 margin-top: 35px;
+     font-size: 125%;
+	 font-weight: bold;
+}
+
+h3 { color: #000000; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+     font-size: 100%;
+}
+
+h4 {
+	color: #000000; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+     margin-bottom: 05px;   
+	 font-size: 100%;
+	 font-weight: bold;
+}
+
+p1 { color: #000000;
+     font-family: arial, sans-serif;
+	 text-align: left;
+	 margin-left: 05px;
+	 margin-top: 100px;
+	 margin-bottom: 15px;
+     font-size: 100%;
+}
+
+table {
+  width: 80%
+}
+table,
+th,
+td {
+  border: 25px black;
+  border-collapse: collapse;
+  margin-left: 15px;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  margin-left: -115px;
+}
+
+ul {
+	color: #000000;
+    font-family: arial, sans-serif;
+	margin-left: 25px;
+	text-align: left;
+	border-right: 10px;
+	font-size: 100%;
+}
+
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+		 clear: both;
+}
+header, main, footer, figure, figcaption { display: block; }
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; }
+	#wrapper { width: auto; }                                                              
+	main { margin-left: 0; }
+	nav { float: none; 
+              width: auto; }
+	nav li { display: inline-block; 
+               padding: 0.5em; }
+	nav ul { text-align: center; }
+	nav a { border-style: none; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+} 
+@media only screen and (max-width: 768px) {
+	h1, h2 { font-size: 100%; }
+	span { font-size: 80%; } 
+  	nav, nav ul, nav li { padding: 0; }
+ 	nav li { display: block; }
+        nav a { display: block; 
+      	padding: 0.5em 0;
+        border-bottom: 2px ridge #00005D; }
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
